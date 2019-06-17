@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: dask-sphinx-theme
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask-sphinx-theme/dask_sphinx_theme-{{ version }}.tar.gz
-  sha256: 2e8b89f1e4ac17dfe31edc679097c655865384801beff0ddf74e8d914d9b790f
+  sha256: 0a4c2b805b317b0071143c31cc5d93f01edf16f3e2c6369178e1fc90dc9fcc4a
 
 build:
   number: 0
