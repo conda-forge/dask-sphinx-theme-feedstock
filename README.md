@@ -5,7 +5,7 @@ Home: https://github.com/dask/dask-sphinx-theme
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Dask theme for Sphinx
 
