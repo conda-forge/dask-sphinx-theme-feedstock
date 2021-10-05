@@ -3,7 +3,7 @@ About dask-sphinx-theme
 
 Home: https://github.com/dask/dask-sphinx-theme
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-sphinx-theme-feedstock/blob/master/LICENSE.txt)
 

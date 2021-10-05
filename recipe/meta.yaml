@@ -1,4 +1,4 @@
-{% set version = "1.3.6" %}
+{% set version = "2.0.0" %}
 
 package:
   name: dask-sphinx-theme
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask-sphinx-theme/dask_sphinx_theme-{{ version }}.tar.gz
-  sha256: 34cbc99a0b83ddddf811b637981d0609013d56010f2d99ecc77315d71cfdce44
+  sha256: 6ae303c49e4849a0666a83ca31473fb6a938edf355ae4911276bc9733df28ec2
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - sphinx_rtd_theme >=0.5.2
+    - sphinx-book-theme >=0.1.5
 
 test:
   imports:
