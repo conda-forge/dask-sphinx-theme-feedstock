@@ -1,11 +1,11 @@
-About dask-sphinx-theme
-=======================
+About dask-sphinx-theme-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-sphinx-theme-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dask/dask-sphinx-theme
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-sphinx-theme-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dask theme for Sphinx
 
