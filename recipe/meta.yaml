@@ -1,4 +1,5 @@
 {% set version = "4.0.0" %}
+{% set python_min = "3.11" %}
 
 package:
   name: dask-sphinx-theme
@@ -15,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.11
+    - python {{ python_min }}
     - pip
     - setuptools
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.11
+    - python >={{ python_min }}
     - sphinx >=7.0
     - pyyaml
     - numpydoc
@@ -30,7 +31,7 @@ requirements:
 
 test:
   requires:
-    - python >=3.11
+    - python {{ python_min }}
   imports:
     - dask_sphinx_theme
 
