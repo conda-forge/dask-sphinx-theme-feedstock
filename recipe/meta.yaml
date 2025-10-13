@@ -20,8 +20,11 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - sphinx-book-theme 0.2.0
+    - sphinx >=7.0
+    - pyyaml
+    - numpydoc
     - jsonschema
+    - sphinx-book-theme >=1,<2
 
 test:
   requires:
